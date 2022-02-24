@@ -1,0 +1,47 @@
+{
+  "minecraft:recipes/building_blocks/quartz_pillar": {
+    "criteria": {
+      "has_quartz_pillar": "2022-02-24 05:06:03 +1300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_stairs": {
+    "criteria": {
+      "has_quartz_pillar": "2022-02-24 05:06:03 +1300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_slab": {
+    "criteria": {
+      "has_quartz_pillar": "2022-02-24 05:06:03 +1300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:snowy_slopes": "2022-02-24 05:28:28 +1300",
+      "minecraft:frozen_river": "2022-02-24 05:04:31 +1300",
+      "minecraft:beach": "2022-02-24 05:31:20 +1300",
+      "minecraft:river": "2022-02-24 05:26:17 +1300",
+      "minecraft:snowy_plains": "2022-02-24 05:05:09 +1300",
+      "minecraft:stony_shore": "2022-02-24 05:26:27 +1300",
+      "minecraft:snowy_taiga": "2022-02-24 05:04:42 +1300",
+      "minecraft:cold_ocean": "2022-02-24 05:28:47 +1300",
+      "minecraft:forest": "2022-02-24 05:28:19 +1300",
+      "minecraft:deep_cold_ocean": "2022-02-24 05:30:15 +1300",
+      "minecraft:ice_spikes": "2022-02-24 05:22:20 +1300",
+      "minecraft:frozen_ocean": "2022-02-24 05:32:01 +1300",
+      "minecraft:ocean": "2022-02-24 05:28:55 +1300",
+      "minecraft:snowy_beach": "2022-02-24 05:06:12 +1300",
+      "minecraft:plains": "2022-02-24 05:26:18 +1300"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/chiseled_quartz_block": {
+    "criteria": {
+      "has_quartz_pillar": "2022-02-24 05:06:03 +1300"
+    },
+    "done": true
+  },
+  "DataVersion": 2865
+}

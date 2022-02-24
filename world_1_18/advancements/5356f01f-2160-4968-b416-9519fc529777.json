@@ -1,0 +1,30 @@
+{
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2022-02-22 09:59:36 +1300"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2022-02-22 10:06:37 +1300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:frozen_river": "2022-02-22 09:58:34 +1300",
+      "minecraft:beach": "2022-02-22 10:01:45 +1300",
+      "minecraft:river": "2022-02-22 10:02:09 +1300",
+      "minecraft:stony_shore": "2022-02-22 10:01:17 +1300",
+      "minecraft:snowy_plains": "2022-02-22 09:58:58 +1300",
+      "minecraft:snowy_taiga": "2022-02-22 09:58:47 +1300",
+      "minecraft:cold_ocean": "2022-02-22 10:11:05 +1300",
+      "minecraft:forest": "2022-02-22 09:59:19 +1300",
+      "minecraft:deep_cold_ocean": "2022-02-22 10:11:12 +1300",
+      "minecraft:plains": "2022-02-22 10:00:30 +1300"
+    },
+    "done": false
+  },
+  "DataVersion": 2865
+}
