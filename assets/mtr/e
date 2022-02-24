@@ -1,0 +1,13 @@
+ 
+"comment": {
+        "at_metro": {
+			"base_train_type": "base_24_2",
+			"color": "FF6600",
+			"texture_id": "mtr:nz_trains/at_metro",
+			"speed_sound_count": 0,
+			"has_gangway_connection": false,
+			"model": "mtr:nz_trains/at_metro.bbmodel",
+			"model_properties": "mtr:nz_trains/at_metro.json",
+			"name": "AT Metro CAF train (do not use)"
+		},
+    },

@@ -1,0 +1,21 @@
+{
+	"textures": {
+		"arrow": "mtr:sign/platform_arrow"
+	},
+	"elements": [
+		{
+			"from": [0, 0.1, 0],
+			"to": [16, 0.1, 16],
+			"faces": {
+				"up": {"uv": [16, 0, 8, 16], "texture": "#arrow", "cullface": "up"}
+			}
+		},
+		{
+			"from": [16, 0.1, 0],
+			"to": [20, 0.1, 16],
+			"faces": {
+				"up": {"uv": [8, 0, 6, 16], "texture": "#arrow", "cullface": "up"}
+			}
+		}
+	]
+}

@@ -1,0 +1,207 @@
+{
+	"door_max": 14,
+	"parts_normal": [
+		{
+			"part_name": "window_wall_exterior",
+			"positions": [
+				[0, -120],
+				[0, -40],
+				[0, 40],
+				[0, 120]
+			],
+			"positions_flipped": [
+				[0, -120],
+				[0, -40],
+				[0, 40],
+				[0, 120]
+			],
+			"stage": "exterior"
+		},
+		{
+			"part_name": "roof",
+			"positions": [
+				[0, -120],
+				[0, -40],
+				[0, 40],
+				[0, 120]
+			],
+			"positions_flipped": [
+				[0, -120],
+				[0, -40],
+				[0, 40],
+				[0, 120]
+			],
+			"stage": "exterior"
+		},
+		{
+			"part_name": "roof",
+			"positions": [
+				[0, -160],
+				[0, -80],
+				[0, 0],
+				[0, 80],
+				[0, 160]
+			],
+			"positions_flipped": [
+				[0, -160],
+				[0, -80],
+				[0, 0],
+				[0, 80],
+				[0, 160]
+			],
+			"stage": "exterior"
+		},
+		{
+			"part_name": "door_wall_exterior",
+			"positions": [
+				[0, -145],
+				[0, -65],
+				[0, 15],
+				[0, 95]
+			],
+			"positions_flipped": [
+				[0, -145],
+				[0, -65],
+				[0, 15],
+				[0, 95]
+			],
+			"stage": "exterior"
+		},
+		{
+			"part_name": "door_floor_exterior",
+			"positions": [
+				[0, -145],
+				[0, -65],
+				[0, 15],
+				[0, 95]
+			],
+			"positions_flipped": [
+				[0, -145],
+				[0, -65],
+				[0, 15],
+				[0, 95]
+			],
+			"stage": "exterior"
+		},
+		{
+			"part_name": "door_floor",
+			"positions": [
+				[0, -145],
+				[0, -65],
+				[0, 15],
+				[0, 95]
+			],
+			"positions_flipped": [
+				[0, -145],
+				[0, -65],
+				[0, 15],
+				[0, 95]
+			],
+			"stage": "interior"
+		},
+		{
+			"part_name": "floor_exterior",
+			"positions": [
+				[0, -120],
+				[0, -40],
+				[0, 40],
+				[0, 120]
+			],
+			"stage": "exterior"
+		},
+		{
+			"part_name": "floor",
+			"positions": [
+				[0, -120],
+				[0, -40],
+				[0, 40],
+				[0, 120]
+			],
+			"stage": "interior"
+		},
+		{
+			"part_name": "door_wall_exterior",
+			"positions": [
+				[0, -160],
+				[0, -80],
+				[0, 0],
+				[0, 80],
+				[0, 160]
+			],
+			"positions_flipped": [
+				[0, -160],
+				[0, -80],
+				[0, 0],
+				[0, 80],
+				[0, 160]
+			],
+			"stage": "interior"
+		},
+		{
+			"part_name": "door_left_exterior",
+			"positions_flipped": [
+				[0, -160],
+				[0, -80],
+				[0, 0],
+				[0, 80],
+				[0, 160]
+			],
+			"stage": "interior",
+			"door_offset_z": "left"
+		},
+		{
+			"part_name": "door_left_exterior",
+			"positions": [
+				[0, -160],
+				[0, -80],
+				[0, 0],
+				[0, 80],
+				[0, 160]
+			],
+			"stage": "interior",
+			"door_offset_z": "right"
+		},
+		{
+			"part_name": "door_right_exterior",
+			"positions_flipped": [
+				[0, -160],
+				[0, -80],
+				[0, 0],
+				[0, 80],
+				[0, 160]
+			],
+			"stage": "interior",
+			"door_offset_z": "left_negative"
+		},
+		{
+			"part_name": "door_right_exterior",
+			"positions": [
+				[0, -160],
+				[0, -80],
+				[0, 0],
+				[0, 80],
+				[0, 160]
+			],
+			"stage": "interior",
+			"door_offset_z": "right_negative"
+		}
+	],
+	"parts_head_1": [
+		{
+			"part_name": "front_exterior",
+			"positions": [
+				[0, -184]
+			],
+			"stage": "exterior"
+		}
+	],
+	"parts_head_2": [
+		{
+			"part_name": "front_exterior",
+			"positions_flipped": [
+				[0, 184]
+			],
+			"stage": "exterior"
+		}
+	]
+}

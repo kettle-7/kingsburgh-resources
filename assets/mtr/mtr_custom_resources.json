@@ -1,0 +1,121 @@
+{
+    "custom_trains": {
+        "at_metro": {
+			"base_train_type": "base_24_2",
+			"color": "FF6600",
+			"texture_id": "mtr:nz_trains/at_metro",
+			"speed_sound_count": 0,
+			"has_gangway_connection": false,
+			"model": "mtr:nz_trains/at_metro.bbmodel",
+			"model_properties": "mtr:nz_trains/at_metro.json",
+			"name": "AT Metro CAF train (do not use)"
+		},
+		"nlk": {
+            "base_train_type": "k_train",
+            "color": "#0075DB",
+            "texture_id": "mtr:northlink/nlk.png",
+            "name": "Northlink K-train"
+		},
+		"nla": {
+            "base_train_type": "a_train_tcl",
+            "color": "#0075DB",
+            "texture_id": "mtr:northlink/nla.png",
+            "name": "CAF Northlink Underground"
+		},
+		"nlm": {
+            "base_train_type": "m_train",
+            "color": "#0075DB",
+            "texture_id": "mtr:northlink/nlm.png",
+            "name": "Northlink M-train"
+		},
+		"nlc": {
+            "base_train_type": "c_train",
+            "color": "#0075DB",
+            "texture_id": "mtr:northlink/nlc.png",
+            "name": "Northlink C-train"
+		},
+		"nrac_a": {
+            "base_train_type": "k_train",
+            "color": "#FF6600",
+            "texture_id": "mtr:nrac/airport.png",
+            "name": "NRAC Airport Line"
+		},
+		"nrac_n": {
+            "base_train_type": "k_train",
+            "color": "#FF6600",
+            "texture_id": "mtr:nrac/newham.png",
+            "name": "NRAC Newham Line"
+		},
+		"nrac_an": {
+            "base_train_type": "k_train",
+            "color": "#FF6600",
+            "texture_id": "mtr:nrac/airport-newham.png",
+            "name": "NRAC Airport - Newham Line"
+		},
+		"nrac_k": {
+            "base_train_type": "k_train",
+            "color": "#FF6600",
+            "texture_id": "mtr:nrac/k_train.png",
+            "name": "Generic NRAC K-train"
+		}
+	},
+	"custom_signs": {
+        "nl": {
+            "texture_id": "mtr:northlink/logo.png"
+        },
+        "nl_l": {
+            "texture_id": "mtr:northlink/logo.png",
+            "custom_text": "Northlink Trains"
+        },
+        "nl_r": {
+            "texture_id": "mtr:northlink/logo.png",
+            "custom_text": "Northlink Trains",
+            "flip_custom_text": true
+        },
+
+        "wr": {
+            "texture_id": "mtr:wr/logo.png"
+        },
+        "wr_r": {
+            "texture_id": "mtr:wr/logo.png",
+            "custom_text": "Westrail Trains",
+            "flip_custom_text": true
+        },
+        "wr_l": {
+            "texture_id": "mtr:wr/logo.png",
+            "custom_text": "Westrail Trains"
+        },
+        "wr_b1": {
+            "texture_id": "mtr:wr/banner1.png"
+        },
+        "wr_b2": {
+            "texture_id": "mtr:wr/banner2.png"
+        },
+        "wr_b3": {
+            "texture_id": "mtr:wr/banner3.png"
+        },
+        "wr_b4": {
+            "texture_id": "mtr:wr/banner4.png"
+        },
+
+        "aex": {
+            "texture_id": "mtr:nrac/aex.png"
+        },
+        "aex_dark": {
+            "texture_id": "mtr:nrac/aex_dark.png"
+        },
+        "nrac_dark": {
+            "texture_id": "mtr:nrac/logo.png"
+        },
+        "nrac_dark_r": {
+            "texture_id": "mtr:nrac/logo.png",
+            "custom_text": "National Rail",
+            "flip_custom_text": true
+        },
+        "nrac_dark_l": {
+            "texture_id": "mtr:nrac/logo.png",
+            "custom_text": "National Rail",
+            "flip_custom_text": false
+        }
+	}
+}

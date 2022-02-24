@@ -1,0 +1,23 @@
+{
+	"parent": "block/block",
+	"textures": {
+		"particle": "#main",
+		"bottom": "mtr:block/metal",
+		"top": "block/iron_block",
+		"main": "mtr:block/metal"
+	},
+	"elements": [
+		{
+			"from": [ 0, 0, 0 ],
+			"to": [ 16, 16, 16 ],
+			"faces": {
+				"down": { "texture": "#bottom", "cullface": "down" },
+				"up": { "texture": "#top", "cullface": "up" },
+				"east": { "texture": "#main", "cullface": "east" },
+				"west": { "texture": "#main", "cullface": "west" },
+				"north": { "texture": "#main", "cullface": "north" },
+				"south": { "texture": "#main", "cullface": "south" }
+			}
+		}
+	]
+}
