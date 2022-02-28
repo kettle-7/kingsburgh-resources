@@ -1,0 +1,110 @@
+{
+	"door_max": 17,
+	"parts_normal": [],
+	"parts_head_1": [
+        {
+			"part_name": "loco",
+			"positions": [
+				[0, 0]
+			],
+			"stage": "exterior"
+		}
+    ],
+	"parts_head_2": [],
+	"parts_head_1_headlights": [],
+	"parts_head_1_tail_lights": [],
+	"parts_head_2_headlights": [],
+	"parts_head_2_tail_lights": [],
+	"parts_end_1": [
+        {
+			"part_name": "car",
+			"positions": [
+				[0, 0]
+			],
+            "positions_flipped": [
+                [0, 0]
+            ],
+			"stage": "interior"
+		},
+		{
+			"part_name": "exterior",
+			"positions": [
+				[0, 0]
+			],
+			"positions_flipped": [
+				[0, 0]
+			],
+			"stage": "exterior"
+		},
+		{
+			"part_name": "door_left_int",
+			"positions": [
+				[0, 0]
+			],
+			"stage": "interior",
+			"door_offset_z": "right_negative"
+		},
+		{
+			"part_name": "door_left_ext",
+			"positions": [
+				[0, 0]
+			],
+			"stage": "exterior",
+			"door_offset_z": "right_negative"
+		},
+		{
+			"part_name": "door_right_int",
+			"positions": [
+				[0, 0]
+			],
+			"stage": "interior",
+			"door_offset_z": "right"
+		},
+        {
+			"part_name": "door_right_ext",
+			"positions": [
+				[0, 0]
+			],
+			"stage": "exterior",
+			"door_offset_z": "right"
+		},
+
+
+
+		{
+			"part_name": "door_left_int",
+			"positions_flipped": [
+				[0, 0]
+			],
+			"stage": "interior",
+			"door_offset_z": "left"
+		},
+		{
+			"part_name": "door_left_ext",
+			"positions_flipped": [
+				[0, 0]
+			],
+			"stage": "exterior",
+			"door_offset_z": "left"
+		},
+		{
+			"part_name": "door_right_int",
+			"positions_flipped": [
+				[0, 0]
+			],
+			"stage": "interior",
+			"door_offset_z": "left_negative"
+		},
+        {
+			"part_name": "door_right_ext",
+			"positions_flipped": [
+				[0, 0]
+			],
+			"stage": "exterior",
+			"door_offset_z": "left_negative"
+		}
+	],
+	"parts_end_2": [],
+	"parts_door_opened": [],
+	"parts_door_closed": []
+}

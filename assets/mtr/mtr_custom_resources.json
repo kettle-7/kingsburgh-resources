@@ -1,5 +1,29 @@
 {
     "custom_trains": {
+		"squirmyworm_1side": {
+            "name": "NoRtHliNk WOrm TRaIn (light rail edition)",
+			"base_train_type": "base_3_2",
+			"color": "FF6600",
+			"texture_id": "mtr:squirmyworm1side/squirmyworm",
+			"speed_sound_count": 90,
+            "speed_sound_base_id": "k_train",
+			"door_sound_base_id": "london_underground_1995",
+			"has_gangway_connection": false,
+			"model": "mtr:squirmyworm1side/squirmyworm.bbmodel",
+			"model_properties": "mtr:squirmyworm1side/squirmyworm.json"
+		},
+		"srt_c1": {
+            "name": "Sorano Rapid Transit C1 Train",
+			"base_train_type": "base_20_2",
+			"color": "ff00ff",
+			"texture_id": "mtr:srt_hrt/srtc1",
+			"speed_sound_count": 90,
+            "speed_sound_base_id": "mlr",
+			"door_sound_base_id": "a_train",
+			"has_gangway_connection": false,
+			"model": "mtr:srt_hrt/srtc1.bbmodel",
+			"model_properties": "mtr:srt_hrt/srtc1.json"
+		},
         "at_metro": {
 			"base_train_type": "base_24_2",
 			"color": "FF6600",

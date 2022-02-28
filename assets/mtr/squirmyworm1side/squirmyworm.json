@@ -1,0 +1,105 @@
+{
+	"door_max": 14,
+	"parts_normal": [
+        {
+			"part_name": "interior",
+			"positions": [
+				[0, 0]
+			],
+			"stage": "interior"
+		},
+		{
+			"part_name": "exterior",
+			"positions": [
+				[0, 0]
+			],
+			"stage": "exterior"
+		},
+		{
+			"part_name": "door_left_int",
+			"positions": [
+				[0, 0]
+			],
+			"stage": "interior",
+			"door_offset_z": "right"
+		},
+		{
+			"part_name": "door_left_ext",
+			"positions": [
+				[0, 0]
+			],
+			"stage": "exterior",
+			"door_offset_z": "right"
+		},
+		{
+			"part_name": "door_right_int",
+			"positions": [
+				[0, 0]
+			],
+			"stage": "interior",
+			"door_offset_z": "left"
+		},
+        {
+			"part_name": "door_right_ext",
+			"positions": [
+				[0, 0]
+			],
+			"stage": "exterior",
+			"door_offset_z": "left"
+		}
+    ],
+	"parts_head_1": [
+        {
+            "part_name": "head_rear_ext",
+            "positions": [0, 0],
+            "stage": "exterior",
+        },
+        {
+            "part_name": "head_rear_int",
+            "positions": [0, 0],
+            "stage": "interior",
+        }
+    ],
+	"parts_head_2": [
+        {
+            "part_name": "head_front_ext",
+            "positions": [0, 0],
+            "stage": "exterior",
+        },
+        {
+            "part_name": "head_front_int",
+            "positions": [0, 0],
+            "stage": "interior",
+        }
+    ],
+	"parts_end_1": [
+        {
+            "part_name": "end_rear_ext",
+            "positions": [0, 0],
+            "stage": "exterior",
+        },
+        {
+            "part_name": "end_rear_int",
+            "positions": [0, 0],
+            "stage": "interior",
+        }
+    ],
+	"parts_end_2": [
+        {
+            "part_name": "end_front_ext",
+            "positions": [0, 0],
+            "stage": "exterior",
+        },
+        {
+            "part_name": "end_front_int",
+            "positions": [0, 0],
+            "stage": "interior",
+        }
+    ],
+	"parts_head_1_headlights": [],
+	"parts_head_1_tail_lights": [],
+	"parts_head_2_headlights": [],
+	"parts_head_2_tail_lights": [],
+	"parts_door_opened": [],
+	"parts_door_closed": []
+}
