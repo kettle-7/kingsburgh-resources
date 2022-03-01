@@ -52,48 +52,48 @@
         {
             "part_name": "head_rear_ext",
             "positions": [0, 0],
-            "stage": "exterior",
+            "stage": "exterior"
         },
         {
             "part_name": "head_rear_int",
             "positions": [0, 0],
-            "stage": "interior",
+            "stage": "interior"
         }
     ],
 	"parts_head_2": [
         {
             "part_name": "head_front_ext",
             "positions": [0, 0],
-            "stage": "exterior",
+            "stage": "exterior"
         },
         {
             "part_name": "head_front_int",
             "positions": [0, 0],
-            "stage": "interior",
+            "stage": "interior"
         }
     ],
 	"parts_end_1": [
         {
             "part_name": "end_rear_ext",
             "positions": [0, 0],
-            "stage": "exterior",
+            "stage": "exterior"
         },
         {
             "part_name": "end_rear_int",
             "positions": [0, 0],
-            "stage": "interior",
+            "stage": "interior"
         }
     ],
 	"parts_end_2": [
         {
             "part_name": "end_front_ext",
             "positions": [0, 0],
-            "stage": "exterior",
+            "stage": "exterior"
         },
         {
             "part_name": "end_front_int",
             "positions": [0, 0],
-            "stage": "interior",
+            "stage": "interior"
         }
     ],
 	"parts_head_1_headlights": [],
