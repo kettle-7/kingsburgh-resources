@@ -1,0 +1,24 @@
+{
+	"door_max": 0,
+	"parts_head_1": [
+		{
+			"part_name": "loco",
+			"positions_flipped": [
+				[0, -0]
+			],
+			"stage": "exterior"
+		}
+	],
+	"parts_end_1": [
+		{
+			"part_name": "car",
+			"positions_flipped": [
+				[0, 0]
+			],
+			"positions": [
+				[0, 0]
+			],
+			"stage": "exterior"
+		}
+	]
+}

@@ -12,6 +12,30 @@
 			"model": "mtr:squirmyworm1side/squirmyworm.bbmodel",
 			"model_properties": "mtr:squirmyworm1side/squirmyworm.json"
 		},
+		"apm_100_red": {
+			"base_train_type": "base_11_2",
+			"color": "FF0000",
+			"texture_id": "mtr:apm/apm_100_red",
+			"speed_sound_count": 48,
+			"speed_sound_base_id": "cx100",
+			"door_sound_base_id": "cx100",
+			"has_gangway_connection": false,
+			"model": "mtr:apm/apm_100.bbmodel",
+			"model_properties": "mtr:apm/apm_100.json",
+			"name": "APM 100 Red (TPA)"
+		},
+		"apm_100_blue": {
+			"base_train_type": "base_11_2",
+			"color": "00FFFF",
+			"texture_id": "mtr:apm/apm_100_blue",
+			"speed_sound_count": 48,
+			"speed_sound_base_id": "cx100",
+			"door_sound_base_id": "cx100",
+			"has_gangway_connection": false,
+			"model": "mtr:apm/apm_100.bbmodel",
+			"model_properties": "mtr:apm/apm_100.json",
+			"name": "APM 100 Blue (TPA)"
+		},
 		"srt_c1": {
             "name": "Sorano Rapid Transit C1 Train",
 			"base_train_type": "base_20_2",
@@ -24,15 +48,17 @@
 			"model": "mtr:srt_hrt/srtc1.bbmodel",
 			"model_properties": "mtr:srt_hrt/srtc1.json"
 		},
-        "at_metro": {
-			"base_train_type": "base_24_2",
-			"color": "FF6600",
-			"texture_id": "mtr:nz_trains/at_metro",
-			"speed_sound_count": 0,
+        "kiwirail": {
+			"base_train_type": "base_10_2",
+			"color": "ffdd00",
+			"texture_id": "mtr:nz_trains/kiwirail_train",
+			"speed_sound_count": 90,
+            "speed_sound_base_id": "mlr",
+			"door_sound_base_id": "minecart",
 			"has_gangway_connection": false,
-			"model": "mtr:nz_trains/at_metro.bbmodel",
-			"model_properties": "mtr:nz_trains/at_metro.json",
-			"name": "AT Metro CAF train (do not use)"
+			"model": "mtr:nz_trains/kiwirail_train.bbmodel",
+			"model_properties": "mtr:nz_trains/kiwirail_train.json",
+			"name": "(test) kiwirail frieght train"
 		},
 		"nlk": {
             "base_train_type": "k_train",

@@ -1,0 +1,460 @@
+{
+	"door_max": 16,
+	"parts_normal": [{
+			"part_name": "roof_light_window",
+			"positions": [
+				[0, 0]
+			
+			],
+			"positions_flipped": [
+				[0, 0]
+			
+			],
+			"stage": "lights"
+		},
+		{
+			"part_name": "window",
+			"positions": [
+				[0, 0]
+			
+			],
+			"positions_flipped": [
+				[0, 0]
+			
+			],
+			"stage": "interior"
+		},
+		{
+			"part_name": "window_handrails",
+			"positions": [
+				[0, 0]
+			
+			],
+			"positions_flipped": [
+				[0, 0]
+			
+			],
+			"stage": "interior",
+			"skip_rendering_if_too_far": true
+		},
+		{
+			"part_name": "roof_window",
+			"positions": [
+				[0, 0]
+			
+			],
+			"positions_flipped": [
+				[0, 0]
+			
+			],
+			"stage": "interior",
+			"skip_rendering_if_too_far": true
+		},
+		{
+			"part_name": "window_exterior",
+			"positions": [
+				[0, 0]
+			
+			],
+			"positions_flipped": [
+				[0, 0]
+			
+			],
+			"stage": "exterior"
+		},
+		{
+			"part_name": "roof_exterior",
+			"positions": [
+				[0, 0]
+			
+			],
+			"positions_flipped": [
+				[0, 0]
+			
+			],
+			"stage": "exterior"
+		},
+		{
+			"part_name": "roof_light_door",
+			"positions": [
+				[0, -40],
+                [0, 40]     		
+			],
+			"positions_flipped": [
+				[0, -40],
+                [0, 40]     		
+			],
+			"stage": "lights"
+		},
+		{
+			"part_name": "door",
+			"positions": [
+				[0, -40],
+                [0, 40]     		
+			],
+			"positions_flipped": [
+				[0, -40],
+                [0, 40]     		
+			],
+			"stage": "interior"
+		},
+		{
+			"part_name": "door_left",
+			"positions_flipped": [
+				[0, -40],
+                [0, 40]     		
+			],
+			"stage": "interior",
+			"door_offset_z": "left"
+		},
+		{
+			"part_name": "door_left",
+			"positions": [
+				[0, -40],
+                [0, 40]     		
+			],
+			"stage": "interior",
+			"door_offset_z": "right"
+		},
+		{
+			"part_name": "door_right",
+			"positions_flipped": [
+				[0, -40],
+                [0, 40]     		
+			],
+			"stage": "interior",
+			"door_offset_z": "left_negative"
+		},
+		{
+			"part_name": "door_right",
+			"positions": [
+				[0, -40],
+                [0, 40]     		
+			],
+			"stage": "interior",
+			"door_offset_z": "right_negative"
+		},
+		{
+			"part_name": "handrails",
+			"positions": [
+				[0, 0]
+			    ],
+				"positions_flipped": [
+				[0, 0] 			
+			],
+			"stage": "interior"
+		},
+		{
+			"part_name": "roof_door",
+			"positions": [
+				[0, -40],
+                [0, 40]     		
+			],
+			"positions_flipped": [
+				[0, -40],
+                [0, 40]     		
+			],
+			"stage": "interior",
+			"skip_rendering_if_too_far": true
+		},
+		{
+			"part_name": "exterior_roof_door",
+			"positions": [
+				[0, -40],
+                [0, 40]     		
+			],
+			"positions_flipped": [
+				[0, -40],
+                [0, 40]     		
+			],
+			"stage": "exterior"
+		},
+		{
+			"part_name": "door_exterior",
+			"positions": [
+				[0, -40],
+                [0, 40]     		
+			],
+			"positions_flipped": [
+				[0, -40],
+                [0, 40]     		
+			],
+			"stage": "exterior"
+		},
+		{
+			"part_name": "door_left_exterior",
+			"positions_flipped": [
+				[0, -40],
+                [0, 40]     		
+			],
+			"stage": "exterior",
+			"door_offset_z": "left"
+		},
+		{
+			"part_name": "door_left_exterior",
+			"positions": [
+				[0, -40],
+                [0, 40]     		
+			],
+			"stage": "exterior",
+			"door_offset_z": "right"
+		},
+		{
+			"part_name": "door_right_exterior",
+			"positions_flipped": [
+				[0, -40],
+                [0, 40]     		
+			],
+			"stage": "exterior",
+			"door_offset_z": "left_negative"
+		},
+		{
+			"part_name": "door_right_exterior",
+			"positions": [
+				[0, -40],
+                [0, 40]     		
+			],
+			"stage": "exterior",
+			"door_offset_z": "right_negative"
+		},
+		{
+			"part_name": "roof_exterior",
+			"positions": [
+				[0, -40],
+                [0, 40]     		
+			],
+			"positions_flipped": [
+				[0, -40],
+                [0, 40]     		
+			],
+			"stage": "exterior"
+		}
+	],
+	"parts_head_1": [{
+			"part_name": "head",
+			"positions": [
+				[0, -67]
+			],
+			"stage": "interior"
+		},
+		{
+			"part_name": "roof_front_end",
+			"positions": [
+				[0, -67]
+			],
+			"stage": "interior",
+			"skip_rendering_if_too_far": true
+		},
+		{
+			"part_name": "roof_light_front_end",
+			"positions": [
+				[0, -67]
+			],
+			"stage": "lights"
+		},
+		{
+			"part_name": "head_exterior",
+			"positions": [
+				[0, -67]
+			],
+			"stage": "exterior"
+		},
+		{
+			"part_name": "roof_head_exterior",
+			"positions": [
+				[0, -67]
+			],
+			"stage": "exterior"
+		}
+	],
+	"parts_head_2": [{
+			"part_name": "head",
+			"positions_flipped": [
+				[0, 67]
+			],
+			"stage": "interior"
+		},
+		{
+			"part_name": "roof_front_end",
+			"positions_flipped": [
+				[0, 67]
+			],
+			"stage": "interior",
+			"skip_rendering_if_too_far": true
+		},
+		{
+			"part_name": "roof_light_front_end",
+			"positions_flipped": [
+				[0, 67]
+			],
+			"stage": "lights"
+		},
+		{
+			"part_name": "head_exterior",
+			"positions_flipped": [
+				[0, 67]
+			],
+			"stage": "exterior"
+		},
+		{
+			"part_name": "roof_head_exterior",
+			"positions_flipped": [
+				[0, 67]
+			],
+			"stage": "exterior"
+		}
+	],
+	"parts_head_1_headlights": [{
+		"part_name": "headlights",
+		"positions": [
+			[0, -67]
+		],
+		"stage": "always_on_lights"
+	}],
+	"parts_head_1_tail_lights": [{
+		"part_name": "tail_lights",
+		"positions": [
+			[0, -67]
+		],
+		"stage": "always_on_lights"
+	}],
+	"parts_head_2_headlights": [{
+		"part_name": "headlights",
+		"positions_flipped": [
+			[0, 67]
+		],
+		"stage": "always_on_lights"
+	}],
+	"parts_head_2_tail_lights": [{
+		"part_name": "tail_lights",
+		"positions_flipped": [
+			[0, 67]
+		],
+		"stage": "always_on_lights"
+	}],
+	"parts_end_1": [{
+		"part_name": "roof_light_front_end",
+		"positions": [
+			[0, -67]
+		],
+		"stage": "lights"
+	},
+		{
+			"part_name": "head",
+			"positions": [
+				[0, -67]
+			],
+			"stage": "interior"
+		},
+		{
+			"part_name": "roof_front_end",
+			"positions": [
+				[0, -67]
+			],
+			"stage": "interior",
+			"skip_rendering_if_too_far": true
+		},
+		{
+			"part_name": "head_exterior",
+			"positions": [
+				[0, -67]
+			],
+			"stage": "exterior"
+		},
+		{
+			"part_name": "roof_end_exterior",
+			"positions": [
+				[0, -67]
+			],
+			"stage": "exterior"
+		}
+	],
+	"parts_end_2": [{
+		    "part_name": "roof_light_front_end",
+		    "positions_flipped": [
+			    [0, 67]
+		],
+		"stage": "lights"
+	    },
+		{
+			"part_name": "head",
+			"positions_flipped": [
+				[0, 67]
+			],
+			"stage": "interior"
+		},
+		{
+			"part_name": "roof_front_end",
+			"positions_flipped": [
+				[0, 67]
+			],
+			"stage": "interior",
+			"skip_rendering_if_too_far": true
+		},
+		{
+			"part_name": "head_exterior",
+			"positions_flipped": [
+				[0, 67]
+			],
+			"stage": "exterior"
+		},
+		{
+			"part_name": "roof_end_exterior",
+			"positions_flipped": [
+				[0, 67]
+			],
+			"stage": "exterior"
+		}
+	],
+	"parts_door_opened": [{
+			"part_name": "door_light_exterior_on",
+			"positions": [
+				[0, -40],
+                [0, 40]     		
+			],
+			"positions_flipped": [
+				[0, -40],
+                [0, 40]     		
+			],
+			"stage": "lights"
+		},
+		{
+			"part_name": "door_light_on",
+			"positions": [
+				[0, -40],
+                [0, 40]     		
+			],
+			"positions_flipped": [
+				[0, -40],
+                [0, 40]     		
+			],
+			"stage": "lights"
+		}
+	],
+	"parts_door_closed": [{
+			"part_name": "door_light_off",
+			"positions": [
+				[0, 0]
+			
+			],
+			"positions_flipped": [
+				[0, 0]
+			
+			],
+			"stage": "interior",
+			"skip_rendering_if_too_far": true
+		},
+		{
+			"part_name": "door_light_exterior_off",
+			"positions": [
+				[0, -40],
+                [0, 40]     		
+			],
+			"positions_flipped": [
+				[0, -40],
+                [0, 40]     		
+			],
+			"stage": "exterior"
+		}
+	]
+}
