@@ -69,7 +69,7 @@
 	    	"kingsburghintercity": {
             "base_train_type": "class_802_tpe",
             "color": "#F0655A",
-            "texture_id": "mtr:narc/ki_802.png",
+            "texture_id": "mtr:nrac/ki_802.png",
             "name": "Kingsburgh Intercity 802"
 		},
 		"nla": {
