@@ -69,9 +69,15 @@
 	    	"kingsburghintercity": {
             "base_train_type": "class_802_tpe",
             "color": "#F0655A",
-            "texture_id": "mtr:nrac/ki_802.png",
+            "texture_id": "mtr:ki/ki_802.png",
             "name": "Kingsburgh Intercity 802"
 		},
+	    "class715": {
+            "base_train_type": "a_train_ael",
+            "color": "#F0655A",
+            "texture_id": "mtr:ki/class_715.png",
+            "name": "Kingsburgh Intercity 715"
+	    	},
 		"nla": {
             "base_train_type": "a_train_tcl",
             "color": "#0075DB",
@@ -154,11 +160,11 @@
             "texture_id": "mtr:wr/banner4.png"
         },
 
-        "aex": {
-            "texture_id": "mtr:nrac/aex.png"
+        "ki_sign": {
+            "texture_id": "mtr:ki/ki.png"
         },
-        "aex_dark": {
-            "texture_id": "mtr:nrac/aex_dark.png"
+        "aex_logo": {
+            "texture_id": "mtr:ki/aex_dark.png"
         },
         "nrac_dark": {
             "texture_id": "mtr:nrac/logo.png"
