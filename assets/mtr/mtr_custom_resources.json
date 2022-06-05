@@ -1,5 +1,15 @@
 {
     "custom_trains": {
+        "g12wcoach":{
+            "name":"Shufford Line 51 & 52 with Coach",
+            "color":"4462DF",
+            "gangway_connection_id":"na",
+            "train_barrier_id":"na",
+            "rider_offset":0.0,
+            "texture_id":"mtr:g12wcoach/g12wcoach",
+            "model":"mtr:g12wcoach/g12wcoach.bbmodel",
+            "model_properties":"mtr:g12wcoach/g12wcoach.json"
+        },
 		"squirmyworm_1side": {
             "name": "NoRtHliNk WOrm TRaIn (light rail edition)",
 			"base_train_type": "base_3_2",
@@ -22,7 +32,7 @@
 			"has_gangway_connection": false,
 			"model": "mtr:apm/apm_100.bbmodel",
 			"model_properties": "mtr:apm/apm_100.json",
-			"name": "APM 100 Red (TPA)"
+			"name": "Bombardier APM100 Red (TPA)"
 		},
 		"apm_100_blue": {
 			"base_train_type": "base_11_2",
@@ -34,7 +44,7 @@
 			"has_gangway_connection": false,
 			"model": "mtr:apm/apm_100.bbmodel",
 			"model_properties": "mtr:apm/apm_100.json",
-			"name": "APM 100 Blue (TPA)"
+			"name": "Bombardier APM100 Blue (TPA)"
 		},
 		"srt_c1": {
             "name": "Sorano Rapid Transit C1 Train",
@@ -61,12 +71,12 @@
 			"name": "(test) kiwirail frieght train"
 		},
 		"nlk": {
-            "base_train_type": "k_train",
+            "base_train_type": "k_train_small",
             "color": "#0075DB",
-            "texture_id": "mtr:northlink/nlk.png",
+            "texture_id": "mtr:hrt/nlk.png",
             "name": "Northlink K-train"
 		},
-	    	"kingsburghintercity": {
+    	"kingsburghintercity": {
             "base_train_type": "class_802_tpe",
             "color": "#F0655A",
             "texture_id": "mtr:ki/ki_802.png",
@@ -79,21 +89,21 @@
             "name": "Kingsburgh Intercity 715"
 	    	},
 		"nla": {
-            "base_train_type": "a_train_tcl",
+            "base_train_type": "a_train_tcl_small",
             "color": "#0075DB",
-            "texture_id": "mtr:northlink/nla.png",
+            "texture_id": "mtr:hrt/nla.png",
             "name": "CAF Northlink Underground"
 		},
 		"nlm": {
-            "base_train_type": "m_train",
+            "base_train_type": "m_train_small",
             "color": "#0075DB",
-            "texture_id": "mtr:northlink/nlm.png",
+            "texture_id": "mtr:hrt/nlm.png",
             "name": "Northlink M-train"
 		},
 		"nlc": {
-            "base_train_type": "c_train",
+            "base_train_type": "c_train_small",
             "color": "#0075DB",
-            "texture_id": "mtr:northlink/nlc.png",
+            "texture_id": "mtr:hrt/nlc.png",
             "name": "Northlink C-train"
 		},
 		"nrac_a": {
@@ -123,15 +133,15 @@
 	},
 	"custom_signs": {
         "nl": {
-            "texture_id": "mtr:northlink/logo.png"
+            "texture_id": "mtr:hrt/logo.png"
         },
         "nl_l": {
-            "texture_id": "mtr:northlink/logo.png",
-            "custom_text": "Northlink Trains"
+            "texture_id": "mtr:hrt/logo.png",
+            "custom_text": "晴韻鐵路|Harmony Rail Transit"
         },
         "nl_r": {
-            "texture_id": "mtr:northlink/logo.png",
-            "custom_text": "Northlink Trains",
+            "texture_id": "mtr:hrt/logo.png",
+            "custom_text": "晴韻鐵路|Harmony Rail Transit",
             "flip_custom_text": true
         },
 
@@ -140,12 +150,12 @@
         },
         "wr_r": {
             "texture_id": "mtr:wr/logo.png",
-            "custom_text": "Westrail Trains",
+            "custom_text": "|Westrail Trains|",
             "flip_custom_text": true
         },
         "wr_l": {
             "texture_id": "mtr:wr/logo.png",
-            "custom_text": "Westrail Trains"
+            "custom_text": "|Westrail Trains|"
         },
         "wr_b1": {
             "texture_id": "mtr:wr/banner1.png"
@@ -171,12 +181,12 @@
         },
         "nrac_dark_r": {
             "texture_id": "mtr:nrac/logo.png",
-            "custom_text": "National Rail",
+            "custom_text": "|National Rail|",
             "flip_custom_text": true
         },
         "nrac_dark_l": {
             "texture_id": "mtr:nrac/logo.png",
-            "custom_text": "National Rail",
+            "custom_text": "|National Rail|",
             "flip_custom_text": false
         }
 	}
