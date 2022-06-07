@@ -10,15 +10,6 @@
             "model":"mtr:g12wcoach/g12wcoach.bbmodel",
             "model_properties":"mtr:g12wcoach/g12wcoach.json"
         },
-        "worm_train_1": {
-            "name":"Kettle's beautiful creation, proudly illegally trafficked to Kingsburgh!",
-            "color":"0075DB",
-            "gangway_connection_id":"",
-            "train_barrier_id":"mtr:textures/entity/r179",
-            "rider_offset":0.0,
-            "texture_id":"mtr:hrt/worm_train_1",
-            "model":"mtr:hrt/worm_train_1.bbmodel",
-            "model_properties":"mtr:hrt/worm_train_1.json"},
 		"squirmyworm_1side": {
             "name": "NoRtHliNk WOrm TRaIn (light rail edition)",
 			"base_train_type": "base_3_2",
