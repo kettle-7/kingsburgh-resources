@@ -1,5 +1,13 @@
 {
     "custom_trains": {
+        "sr_fcall_377":{
+            "name":"British Rail Class 377 (All First Class, SR Livery)",
+            "color":"51A08C","gangway_connection_id":"mtr:textures/entity/m_train",
+            "rider_offset":0.0,
+            "texture_id":"mtr:nrac/sr_fcall_377",
+            "model":"mtr:nrac/electrostar.bbmodel",
+            "model_properties":"mtr:nrac/fcall377.json"
+        },
         "g12wcoach":{
             "name":"Shufford Line 51 & 52 with Coach",
             "color":"4462DF",
@@ -10,6 +18,15 @@
             "model":"mtr:g12wcoach/g12wcoach.bbmodel",
             "model_properties":"mtr:g12wcoach/g12wcoach.json"
         },
+        "worm_train_1": {
+            "name":"Kettle's beautiful creation, proudly illegally trafficked to Kingsburgh!",
+            "color":"0075DB",
+            "gangway_connection_id":"",
+            "train_barrier_id":"mtr:textures/entity/r179",
+            "rider_offset":0.0,
+            "texture_id":"mtr:hrt/worm_train_1",
+            "model":"mtr:hrt/worm_train_1.bbmodel",
+            "model_properties":"mtr:hrt/worm_train_1.json"},
 		"squirmyworm_1side": {
             "name": "NoRtHliNk WOrm TRaIn (light rail edition)",
 			"base_train_type": "base_3_2",
@@ -58,18 +75,16 @@
 			"model": "mtr:srt_hrt/srtc1.bbmodel",
 			"model_properties": "mtr:srt_hrt/srtc1.json"
 		},
-        "kiwirail": {
-			"base_train_type": "base_10_2",
-			"color": "ffdd00",
-			"texture_id": "mtr:nz_trains/kiwirail_train",
-			"speed_sound_count": 90,
-            "speed_sound_base_id": "mlr",
-			"door_sound_base_id": "minecart",
-			"has_gangway_connection": false,
-			"model": "mtr:nz_trains/kiwirail_train.bbmodel",
-			"model_properties": "mtr:nz_trains/kiwirail_train.json",
-			"name": "(test) kiwirail frieght train"
-		},
+        "kiwirail_train":{
+            "name":"kiwirail freight train (wip)",
+            "color":"756CAE",
+            "gangway_connection_id":"",
+            "train_barrier_id":"",
+            "rider_offset":0.0,
+            "texture_id":"mtr:kiwirail_train/kiwirail_train",
+            "model":"mtr:kiwirail_train/kiwirail_train.bbmodel",
+            "model_properties":"mtr:kiwirail_train/kiwirail_train.json"
+        },
 		"nlk": {
             "base_train_type": "k_train_small",
             "color": "#0075DB",

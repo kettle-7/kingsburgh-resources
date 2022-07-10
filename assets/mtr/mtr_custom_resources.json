@@ -1,5 +1,15 @@
 {
     "custom_trains": {
+        "sr377":{
+            "name":"British Rail Class 377 (Southern Livery, 4-car sets)",
+            "color":"47AD73",
+            "gangway_connection_id":"mtr:textures/entity/m_train",
+            "train_barrier_id":"",
+            "rider_offset":0.0,
+            "texture_id":"mtr:nrac/sr377",
+            "model":"mtr:nrac/br377.bbmodel",
+            "model_properties":"mtr:nrac/br377540.json"
+        },
         "g12wcoach":{
             "name":"Shufford Line 51 & 52 with Coach",
             "color":"4462DF",
@@ -67,18 +77,16 @@
 			"model": "mtr:srt_hrt/srtc1.bbmodel",
 			"model_properties": "mtr:srt_hrt/srtc1.json"
 		},
-        "kiwirail": {
-			"base_train_type": "base_10_2",
-			"color": "ffdd00",
-			"texture_id": "mtr:nz_trains/kiwirail_train",
-			"speed_sound_count": 90,
-            "speed_sound_base_id": "mlr",
-			"door_sound_base_id": "minecart",
-			"has_gangway_connection": false,
-			"model": "mtr:nz_trains/kiwirail_train.bbmodel",
-			"model_properties": "mtr:nz_trains/kiwirail_train.json",
-			"name": "(test) kiwirail frieght train"
-		},
+        "kiwirail_train":{
+            "name":"kiwirail freight train (wip)",
+            "color":"756CAE",
+            "gangway_connection_id":"",
+            "train_barrier_id":"",
+            "rider_offset":0.0,
+            "texture_id":"mtr:kiwirail_train/kiwirail_train",
+            "model":"mtr:kiwirail_train/kiwirail_train.bbmodel",
+            "model_properties":"mtr:kiwirail_train/kiwirail_train.json"
+        },
 		"nlk": {
             "base_train_type": "k_train_small",
             "color": "#0075DB",
