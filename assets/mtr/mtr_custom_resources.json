@@ -205,6 +205,30 @@
             "texture_id": "mtr:nrac/logo.png",
             "custom_text": "|National Rail|",
             "flip_custom_text": false
+		},
+	    "kcr_b1": {
+            "texture_id": "mtr:kcr/banner1.png"
+        },
+        "kcr_b2": {
+            "texture_id": "mtr:kcr/banner2.png"
+        },
+        "kcr_b3": {
+            "texture_id": "mtr:kcr/banner3.png"
+        },
+        "kcr_b4": {
+            "texture_id": "mtr:kcr/banner4.png"
+		},
+        "kcr_b5": {
+            "texture_id": "mtr:kcr/banner5.png"
+		},
+        "kcr_b6": {
+            "texture_id": "mtr:kcr/banner6.png"
+		},
+        "kcr_b7": {
+            "texture_id": "mtr:kcr/banner7.png"
+		},
+        "kcr_b8": {
+            "texture_id": "mtr:kcr/banner8.png"
         }
 	}
 }

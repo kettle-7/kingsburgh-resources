@@ -1,0 +1,52 @@
+{
+  "kcr.dingdong": {
+    "sounds": [
+        "kcr/dingdong"            
+    ]
+  },
+  "kcr.standclear": {
+    "sounds": [
+        "kcr/standclear"            
+    ]
+  },
+    "kcr.nonstop1": {
+    "sounds": [
+        "kcr/nonstop1"                     
+    ]
+  },
+  "kcr.dodo": {
+    "sounds": [
+        "kcr/dodo"                     
+    ]
+  },
+  "kcr.alightonright": {
+    "sounds": [
+        "kcr/alightonright"                     
+    ]
+  },
+  "kcr.approaching": {
+    "sounds": [
+        "kcr/approaching"                     
+    ]
+	  },
+  "kcr.approaching2": {
+    "sounds": [
+        "kcr/approaching2"                     
+    ]
+  },
+    "kcr.proceedshortly": {
+    "sounds": [
+        "kcr/proceedshortly"                     
+    ]
+  },
+  "kcr.holdhandrail": {
+    "sounds": [
+        "kcr/holdhandrail"                     
+    ]
+  },
+  "kcr.trainterminate": {
+    "sounds": [
+        "kcr/trainterminate"                     
+    ]
+  }
+}
